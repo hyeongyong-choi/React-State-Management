@@ -5,6 +5,7 @@ import './App.css';
 // import { CharacterCounter } from './components/RecoilExample/CharacterCounter';
 import { RecoilRoot } from 'recoil';
 import TodoList from './components/RecoilExample/Todo/TodoList';
+import  CurrentUserInfo  from './components/RecoilExample/Todo/CurrentUserInfo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Text/>
         <CharacterCounter/> */}
         <TodoList/>
+        <CurrentUserInfo/>
      </RecoilRoot>
     </div>
   );
